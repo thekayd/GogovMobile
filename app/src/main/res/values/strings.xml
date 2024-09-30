@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">News Nest</string>
+
+    <!-- Gender Options -->
+    <string-array name="gender_options">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- South African Provinces -->
+    <string-array name="province_options">
+        <item>Eastern Cape</item>
+        <item>Free State</item>
+        <item>Gauteng</item>
+        <item>KwaZulu-Natal</item>
+        <item>Limpopo</item>
+        <item>Mpumalanga</item>
+        <item>Northern Cape</item>
+        <item>North West</item>
+        <item>Western Cape</item>
+    </string-array>
+
+    <!-- License Category Options -->
+    <string-array name="license_category_options">
+        <item>Code A - Motorcycles</item>
+        <item>Code B - Light Motor Vehicles</item>
+        <item>Code C - Heavy Motor Vehicles</item>
+    </string-array>
+
+    <!-- Test Center Options -->
+    <string-array name="test_center_options">
+        <item>Johannesburg Testing Center</item>
+        <item>Pretoria Testing Center</item>
+        <item>Durban Testing Center</item>
+        <item>Cape Town Testing Center</item>
+    </string-array>
+</resources>
