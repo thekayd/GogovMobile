@@ -1,18 +1,17 @@
-package com.example.newsnest
+package com.example.GoGov
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.widget.Button
-
-class IdRenewalActivity : AppCompatActivity() {
+class IDApplicationActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_id_renewal)
+        setContentView(R.layout.activity_id_application)
 
-        val btnSubmitRenewal: Button = findViewById(R.id.btn_submit_renewal)
+        val btnSubmitApplication: Button = findViewById(R.id.btn_submit_application)
 
-        btnSubmitRenewal.setOnClickListener {
+        btnSubmitApplication.setOnClickListener {
             // Code to handle form submission
         }
     }

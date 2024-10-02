@@ -1,4 +1,4 @@
-package com.example.newsnest.ui.theme
+package com.example.GoGov.ui.theme
 
 import android.app.Activity
 import android.os.Build

@@ -1,11 +1,11 @@
-package com.example.newsnest
+package com.example.GoGov
 
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.newsnest.R
+import com.example.GoGov.R
 
 class PaymentActivity : AppCompatActivity() {
 

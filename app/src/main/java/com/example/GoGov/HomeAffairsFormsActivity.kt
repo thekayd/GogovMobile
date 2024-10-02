@@ -1,4 +1,4 @@
-package com.example.newsnest
+package com.example.GoGov
 
 import android.content.Intent
 import android.os.Bundle

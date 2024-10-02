@@ -1,4 +1,4 @@
-package com.example.newsnest.ui.theme
+package com.example.GoGov.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
