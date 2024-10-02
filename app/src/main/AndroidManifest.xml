@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Requests permissions when handling file uploads -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -12,28 +15,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NewsNest"
         tools:targetApi="31">
-        <activity
-            android:name=".MainActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.GoGovMobile">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
+        <activity
+            android:name=".HomePageActivity"
+            android:theme="@style/Theme.NewsNest"
+            android:exported="true">
+
+
+        <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".DriversLicenseActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.NewsNest">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:theme="@style/Theme.NewsNest" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <!-- Other Activities -->
+        <activity android:name=".HealthFormsActivity" />
+        <activity android:name=".EducationFormsActivity" />
+        <activity android:name=".HomeAffairsFormsActivity" />
+        <activity android:name=".VaccinationRegistrationActivity" />
+        <activity android:name=".BursaryApplicationActivity" />
+        <activity android:name=".SchoolEnrollmentActivity" />
+        <activity android:name=".IdRenewalActivity" />
+        <activity android:name=".IDApplicationActivity" />
+        <activity android:name=".TransportationFormsActivity"/>
+
     </application>
 
 </manifest>
