@@ -1,9 +1,7 @@
 <resources>
-<<<<<<< HEAD
-    <string name="app_name">News Nest</string>
-=======
-    <string name="app_name">Go Gov</string>
->>>>>>> a7dde1bd7edaa509f3e28eea4515a0357cb9c902
+
+    <string name="app_name">GoGov</string>
+
 
     <!-- Gender Options -->
     <string-array name="gender_options">
@@ -12,8 +10,7 @@
         <item>Other</item>
     </string-array>
 
-<<<<<<< HEAD
-=======
+
     <!-- Vaccination Types -->
     <string-array name="vaccination_types">
         <item>COVID-19 Vaccine</item>
@@ -29,7 +26,7 @@
         <item>Pretoria Vaccination Center</item>
     </string-array>
 
->>>>>>> a7dde1bd7edaa509f3e28eea4515a0357cb9c902
+
     <!-- South African Provinces -->
     <string-array name="province_options">
         <item>Eastern Cape</item>
@@ -43,8 +40,7 @@
         <item>Western Cape</item>
     </string-array>
 
-<<<<<<< HEAD
-=======
+
 
         <!-- Grades Array -->
         <string-array name="grades">
@@ -75,7 +71,7 @@
             <item>Northern Cape</item>
         </string-array>
 
->>>>>>> a7dde1bd7edaa509f3e28eea4515a0357cb9c902
+
     <!-- License Category Options -->
     <string-array name="license_category_options">
         <item>Code A - Motorcycles</item>
